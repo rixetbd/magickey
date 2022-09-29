@@ -3,17 +3,17 @@
 
 
 
-## Digital Clock ⌚ DigiClock
+## Magic Keywords
 
 This is a litte JavaScript Project.
 
 
 ### Live Preview
 
-Copy link from below or click here [Click Here](https://rixetbd.github.io/JSProject/Digital_Clock/index.html)
+Copy link from below or click here [Click Here](https://rixetbd.github.io/magickey)
 
 ```bash
-  https://rixetbd.github.io/JSProject/Digital_Clock/index.html
+  https://rixetbd.github.io/magickey
 ```
 
 ### Feedback
