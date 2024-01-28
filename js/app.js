@@ -94,3 +94,10 @@ function hashTag()
 
    $('#textBoxResult').val(final.join(""));
 }
+
+function RemoveWhitespace()
+{
+    let textData = $('#textBox').val();
+    let spaceData = textData.replace(/\s/g, "");
+   $('#textBoxResult').val(spaceData);
+}

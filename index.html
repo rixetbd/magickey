@@ -17,7 +17,7 @@
 <body>
 
     <section class="container d-flex justify-content-center align-items-center vh-100">
-        <div class="text-center col-md-8 col-sm-12">
+        <div class="text-center col-md-10 col-sm-12">
             <img src="img/case-change.png" alt="" style="width: 20%;">
             <h2>Magic keywords </h2>
             <p class="mx-5">
@@ -25,9 +25,10 @@
             </p>
             <textarea name="" id="textBox" class="p-4" style="height: 150px;width: 100%;"
                 placeholder="Type your text..."></textarea>
-            <div class="d-flex justify-content-between all_btn">
-                <div id="singleWord" class="btn_div">Generate</div>
-                <div onclick="hashTag()" class="btn_div"># Hash Tag</div>
+            <div class="d-flex flex-wrap gap-2 justify-content-between all_btn">
+                <!-- <div id="singleWord" class="btn_div">Generate</div> -->
+                <div onclick="RemoveWhitespace()" class="btn_div">Remove Whitespace</div>
+                <!-- <div onclick="hashTag()" class="btn_div"># Hash Tag</div> -->
                 <div onclick="lowerCase()" class="btn_div">lower case</div>
                 <div onclick="UpperCase()" class="btn_div">UPPER CASE</div>
                 <div id="copy" class="btn_div">Copy</div>

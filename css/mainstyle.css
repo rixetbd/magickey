@@ -11,17 +11,17 @@ textarea {
     font-family: 'Poppins', sans-serif;
 }
 
-.all_btn .btn_div:first-child {
-    margin-left: 0;
-}
+
 .all_btn .btn_div {
     color: #f0ffff;
     border: 1px solid #707070af;
     width: 100%;
-    margin-left: 5px;
     padding: 15px;
     cursor: pointer;
     padding: 5px;
+    text-wrap: nowrap;
+    min-width: 200px;
+    width: max-content;
 }
 
 .all_btn .btn_div:nth-last-child() {
